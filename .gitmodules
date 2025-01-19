@@ -4,3 +4,6 @@
 [submodule "libdocker"]
 	path = libdocker
 	url = https://github.com/danielsuo/libdocker.git
+[submodule "json"]
+	path = json
+	url = https://github.com/nlohmann/json.git

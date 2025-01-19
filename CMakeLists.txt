@@ -7,4 +7,5 @@ project(fenbotics_ide)
 include(scripts/imgui.cmake)
 add_subdirectory(libdocker)
 add_subdirectory(src)
+add_subdirectory(json)
 
