@@ -151,8 +151,12 @@ bool fen_gui_init::loop() {
 
     {
         ImGui::Begin("Main");
+        int curr_ros_ver;
+        static std::string bleh;
+        ImGui::InputText("Project Path", &bleh);
+        ImGui::Combo("ROS Version", &curr_ros_ver, "Jazzy\0");
         if (ImGui::Button("Test"))
-            std::cout << "Testing" << std::endl;
+            std::cout << bleh << std::endl;
         ImGui::End();
     }
 

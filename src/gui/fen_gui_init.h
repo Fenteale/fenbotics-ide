@@ -11,6 +11,7 @@
 // Read online: https://github.com/ocornut/imgui/tree/master/docs
 
 #include "imgui.h"
+#include "misc/cpp/imgui_stdlib.h"
 #include "imgui_impl_sdl2.h"
 #include "imgui_impl_opengl3.h"
 #include <stdio.h>

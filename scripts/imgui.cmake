@@ -11,7 +11,8 @@ set(IMGUI_SRC
         ${IMGUI_ROOT}/imgui_widgets.cpp
         ${IMGUI_ROOT}/backends/imgui_impl_sdl2.cpp
         ${IMGUI_ROOT}/backends/imgui_impl_sdl2.h
-        ${IMGUI_ROOT}/backends/imgui_impl_opengl3.cpp)
+        ${IMGUI_ROOT}/backends/imgui_impl_opengl3.cpp
+        ${IMGUI_ROOT}/misc/cpp/imgui_stdlib.cpp)
 
 find_path(SDL2_INCLUDE_DIR SDL2/SDL.h)
 find_library(SDL2_LIBRARY SDL2)
